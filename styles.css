@@ -1,0 +1,57 @@
+
+#calculator {
+    width: 500px;
+    background-color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#display, #opUsed {
+    height: 80px;
+    background-color: white;
+    font-family: Consolas, sans-serif;
+    font-size: xxx-large;
+}
+
+#display {
+    width: 380px;
+    overflow: scroll;
+}
+
+#opUsed {
+    width: 60px;
+    text-align: center;
+}
+
+#display, #buttons, #digits, #operators, #opUsed {
+    margin: 10px;
+}
+
+#buttons {
+    height: 100%;
+    display: flex;
+}
+
+#digits, #operators {
+    background-color: papayawhip;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#digits {
+    justify-content: flex-start;
+}
+
+#operators {
+    justify-content: space-evenly;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+
+#display, #calculator, #buttons, #opUsed {
+    border: solid black;
+}
